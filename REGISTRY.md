@@ -11,7 +11,8 @@ This document tracks identified native Metal/MLX modules for potential integrati
 | **Metal-Flash-Attention** | [philipturner/metal-flash-attention](https://github.com/philipturner/metal-flash-attention) | SOTA performance optimizations for Apple Silicon |
 | **DeepSeek-V3-MLA** | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | Reference for Multi-head Latent Attention (MLA) |
 | **MLX-Examples** | [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples) | Official reference kernels for Llama, Whisper, etc. |
-| **Awesome-MLX** | [replicate/awesome-mlx](https://github.com/replicate/awesome-mlx) | Curated collection of MLX-native models and tools |
+| **MLX-VLM** | [ml-explore/mlx-vlm](https://github.com/ml-explore/mlx-vlm) | Vision-Language Models for Apple Silicon |
+| **Awesome-MLX-Hub** | [ml-explore/mlx-examples/discussions/1411](https://github.com/ml-explore/mlx-examples/discussions/1411) | Official community directory of 80+ projects |
 | **Liger-Kernel-Ref** | [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel) | Fused kernels (RMSNorm, Softmax) for porting to Metal |
 | **MLX-BitNet-minGPT** | [adi-dhulipala/mlx-bitnet-mingpt](https://github.com/adi-dhulipala/mlx-bitnet-mingpt) | Educational ternary linear layer implementation |
 
