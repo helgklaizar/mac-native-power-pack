@@ -8,7 +8,7 @@ This document tracks identified native Metal/MLX modules for potential integrati
 | :--- | :--- | :--- |
 | **BitNet-MLX** | [exo-explore/mlx-bitnet](https://github.com/exo-explore/mlx-bitnet) | 1.58-bit ternary quantization kernels |
 | **Mamba-MLX** | [alxndrTL/mamba.py](https://github.com/alxndrTL/mamba.py) | SSM (State Space Model) Metal implementation |
-| **Metal-Flash-Attention** | [philip-turner/metal-flash-attention](https://github.com/philip-turner/metal-flash-attention) | SOTA performance optimizations for Apple Silicon |
+| **Metal-Flash-Attention** | [philipturner/metal-flash-attention](https://github.com/philipturner/metal-flash-attention) | SOTA performance optimizations for Apple Silicon |
 | **DeepSeek-V3-MLA** | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | Reference for Multi-head Latent Attention (MLA) |
 | **MLX-Examples** | [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples) | Official reference kernels for Llama, Whisper, etc. |
 | **Awesome-MLX** | [replicate/awesome-mlx](https://github.com/replicate/awesome-mlx) | Curated collection of MLX-native models and tools |

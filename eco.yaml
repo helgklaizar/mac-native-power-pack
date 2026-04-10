@@ -50,7 +50,7 @@ pipeline:
   discover:
     - "https://github.com/exo-explore/mlx-bitnet"
     - "https://github.com/alxndrTL/mamba.py"
-    - "https://github.com/philip-turner/metal-flash-attention"
+    - "https://github.com/philipturner/metal-flash-attention"
     - "https://github.com/replicate/awesome-mlx"
     - "https://github.com/ml-explore/mlx-examples"
     - "https://github.com/linkedin/Liger-Kernel"
