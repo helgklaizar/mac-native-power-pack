@@ -32,5 +32,25 @@ High-performance module assemblies curated for specific tasks. Each build is a "
 - **Top Feature**: Speculative Decoding + Rapid Tool Calling.
 - **Hardware**: All Apple Silicon devices.
 
+### 🎬 [Video Alchemist V1](video-alchemist-v1/)
+- **Focus**: Native Video Diffusion (SVD).
+- **Top Feature**: Frame-by-frame Metal processing.
+
+### 🛸 [RAG Radar V1](rag-radar-v1/)
+- **Focus**: Local Search & Retrieval.
+- **Top Feature**: High-speed embeddings + LanceDB.
+
+### ⌨️ [Code Commander V1](code-commander-v1/)
+- **Focus**: Developer Productivity.
+- **Top Feature**: Low-latency Code-autocomplete.
+
+### 🧬 [Bio-ML Architect V1](bio-ml-architect-v1/)
+- **Focus**: Science & Bioinformatics.
+- **Top Feature**: GNN (mlx-graphs) + Protein folding.
+
+### 🐜 [Tiny Titan V1](tiny-titan-v1/)
+- **Focus**: Edge, Mobile & Low-power.
+- **Top Feature**: 2-bit quantization for 1B models.
+
 ---
-*Status: All builds are in active testing and optimization phases.*
+*Status: All 11 builds are defined and ready for the Sequential Testing Phase.*
