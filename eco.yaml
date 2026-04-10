@@ -1,0 +1,57 @@
+# 🌿 Eco-Metal Configuration Registry
+# Central index for all native Metal modules in the Power Pack.
+
+version: "1.0.0"
+registry_name: "Mac-Native Power Pack"
+
+modules:
+  - id: "sage-attention-mlx"
+    path: "mnpp/core/sage-attention-mlx"
+    type: "attention"
+    status: "pass"
+    benchmark: "high"
+
+  - id: "turbo-quant-mlx"
+    path: "mnpp/core/turboquant-mlx"
+    type: "quantization"
+    status: "pass"
+    benchmark: "top-tier"
+
+  - id: "flash-attention-mlx"
+    path: "mnpp/core/flash-attention-mlx"
+    type: "attention"
+    status: "pass"
+    benchmark: "sota"
+
+  - id: "paged-attention-mlx"
+    path: "mnpp/core/paged-attention-mlx"
+    type: "memory"
+    status: "pass"
+
+  - id: "speculative-decode-mlx"
+    path: "mnpp/core/speculative-decode-mlx"
+    type: "inference"
+    status: "pass"
+
+  - id: "flash-mla-mlx"
+    path: "mnpp/nouveau_2026/flash-mla-mlx"
+    type: "attention"
+    status: "experimental"
+    tags: ["deepseek", "v3", "mla"]
+
+  - id: "bitnet-mlx"
+    path: "mnpp/scientific/bitnet-mlx"
+    type: "quantization"
+    status: "pass"
+    tags: ["ternary", "1-bit"]
+
+# Future Modules to Auto-Build
+pipeline:
+  discover:
+    - "https://github.com/exo-explore/mlx-bitnet"
+    - "https://github.com/alxndrTL/mamba.py"
+    - "https://github.com/philip-turner/metal-flash-attention"
+    - "https://github.com/replicate/awesome-mlx"
+    - "https://github.com/ml-explore/mlx-examples"
+    - "https://github.com/linkedin/Liger-Kernel"
+
