@@ -17,5 +17,20 @@ High-performance module assemblies curated for specific tasks. Each build is a "
 - **Top Feature**: 15x faster Whisper transcription.
 - **Hardware**: All Apple Silicon devices.
 
+### 🎨 [Image Artisan V1](image-artisan-v1/)
+- **Focus**: Native Flux & Vision analysis.
+- **Top Feature**: mflux + mlx-vlm integration.
+- **Hardware**: M2/M3/M4 (Higher RAM recommended for Flux).
+
+### 🏋️‍♂️ [Training Titan V1](training-titan-v1/)
+- **Focus**: Efficient local fine-tuning.
+- **Top Feature**: MLX-LoRA + Fused Gradient kernels.
+- **Hardware**: All models (best on 16GB+ RAM).
+
+### 🤖 [Agent Architect V1](agent-architect-v1/)
+- **Focus**: Autonomous agents & Tool use.
+- **Top Feature**: Speculative Decoding + Rapid Tool Calling.
+- **Hardware**: All Apple Silicon devices.
+
 ---
 *Status: All builds are in active testing and optimization phases.*
