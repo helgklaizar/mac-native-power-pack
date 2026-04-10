@@ -1,25 +1,26 @@
-# 🚀 Mac-Native Power Pack (MNPP) v1.1 — Elite Edition
+# 🚀 Mac-Native Power Pack (MNPP)
 
-> **The 7 Most Powerful Metal/MLX Kernels for Apple Silicon.**
+> **Extreme-performance Metal kernels for MLX. Optimized for Apple Silicon.**
 
-MNPP — это курируемая библиотека "тяжелой артиллерии" для энтузиастов и разработчиков на Mac. Мы оставили только 7 модулей, которые дают реальный, ощутимый прирост производительности и возможностей.
+MNPP — это квинтэссенция оптимизаций для локального инференса. Мы убрали всё лишнее, оставив 7 ядер, которые обеспечивают максимальный прирост скорости и эффективности на унифицированной памяти Mac.
 
-## 🏆 The Elite Seven
-1.  **`sage-attn`**: Самое быстрое ядро внимания для инференса на Mac (+10-15% к скорости).
-2.  **`turbo-quant`**: Ультра-быстрая деквантизация весов.
-3.  **`flash-attn`**: Промышленный стандарт для работы с длинными контекстами.
-4.  **`speculative-decode`**: Технология "чернового предсказания" для ускорения генерации до 2 раз.
-5.  **`paged-attn`**: Эффективное управление KV-кэшем (аналог vLLM для мака).
-6.  **`flash-mla-metal`**: Адаптация Multi-head Latent Attention для моделей DeepSeek V3/R1.
-7.  **`bitnet-native`**: Экспериментальная поддержка тернарных (1.58-bit) моделей.
+## 💎 The Elite Seven
+1. **Sage-Attention** — Самое быстрое ядро внимания на Metal.
+2. **Turbo-Quant** — Лидер в скорости деквантизации весов.
+3. **Flash-Attention** — Бескомпромиссная работа с длинным контекстом.
+4. **Speculative-Decode** — Генерация до 2-3 раз быстрее за счет предиктивных алгоритмов.
+5. **Paged-Attention** — Оптимизация KV-кэша для экономии RAM.
+6. **FlashMLA** — Нативный порт Multi-head Latent Attention (DeepSeek V3/R1).
+7. **BitNet-Native** — Прямая поддержка тернарных (1.58-bit) весов на GPU.
 
-## 📂 Structure
-- `/core`: Основной набор для ускорения любой модели.
-- `/scientific`: Инструменты для исследования 1-бит архитектур.
-- `/nouveau_2026`: Свежие порты SOTA-архитектур (DeepSeek).
+## 📦 Project Structure
+- `core/` — Топ-5 модулей для ежедневного ускорения инференса.
+- `scientific/` — База для 1-битных и экспериментальных моделей.
+- `nouveau_2026/` — Передний край: поддержка архитектуры DeepSeek MLA.
 
-## 🚀 How to use
-Все модули представлены в виде `src/infra/ops`, готовых к интеграции через `mlx.fast.metal_kernel`.
+## 🛠 Usage
+Каждый модуль — это автономный блок логики в `/src/infra/ops`. 
+Добавляйте в проект через `mlx.fast.metal_kernel` для нативного выполнения без оверхеда Python.
 
 ---
-*Curated for efficiency. Built for Apple Silicon. 2026.*
+*Pure Speed. No Bloat. Apple Silicon Native. 2026.*
