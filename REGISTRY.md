@@ -13,9 +13,19 @@ This document tracks identified native Metal/MLX modules for potential integrati
 | **MLX-Examples** | [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples) | Official reference kernels for Llama, Whisper, etc. |
 | **MLX-VLM** | [ml-explore/mlx-vlm](https://github.com/ml-explore/mlx-vlm) | Vision-Language Models for Apple Silicon |
 | **Awesome-MLX-Hub** | [ml-explore/mlx-examples/discussions/1411](https://github.com/ml-explore/mlx-examples/discussions/1411) | Official community directory of 80+ projects |
-| **Liger-Kernel-Ref** | [linkedin/Liger-Kernel](https://github.com/linkedin/Liger-Kernel) | Fused kernels (RMSNorm, Softmax) for porting to Metal |
+| **MLX-Benchmark** | [TristanBilot/mlx-benchmark](https://github.com/TristanBilot/mlx-benchmark) | Benchmarking operations across Apple M-series chips |
+| **MLX-LM-Bench** | [gauri-nagavkar/mlxlm_bench](https://github.com/gauri-nagavkar/mlxlm_bench) | Inference performance metrics for MLX models |
 | **MLX-BitNet-minGPT** | [adi-dhulipala/mlx-bitnet-mingpt](https://github.com/adi-dhulipala/mlx-bitnet-mingpt) | Educational ternary linear layer implementation |
 
+
+## 🏺 Reference Model Builds (MLX-Community)
+
+| Model Name | Hugging Face Link | Specs |
+| :--- | :--- | :--- |
+| **Qwen-3.5-9B-4bit** | [mlx-community/Qwen3.5-9B-MLX-4bit](https://huggingface.co/mlx-community/Qwen3.5-9B-MLX-4bit) | Balanced coding/reasoning |
+| **Llama-3.2-1B-4bit** | [mlx-community/Llama-3.2-1B-Instruct-4bit](https://huggingface.co/mlx-community/Llama-3.2-1B-Instruct-4bit) | Lightweight instruction follow |
+| **Gemma-4-31b-4bit** | [mlx-community/gemma-4-31b](https://huggingface.co/mlx-community/gemma-4-31b) | SOTA Multimodal (Vision/Text) |
+| **GLM-5.1-4bit** | [mlx-community/GLM-5.1-4bit](https://huggingface.co/mlx-community/GLM-5.1-4bit) | Large-scale parameter test |
 
 ## 🛠 Integration Plan
 

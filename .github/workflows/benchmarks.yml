@@ -1,0 +1,39 @@
+name: 🏎 MNPP Benchmarks (Apple Silicon)
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    name: 🚀 Run Metal Kernels Benchmark
+    runs-on: macos-14
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mlx mlx-lm numpy
+
+      - name: 🏎 Execute MNPP Benchmarks
+        run: |
+          export PYTHONPATH=$PYTHONPATH:.
+          python3 tests/benchmark_mnpp.py
+
+      - name: 📊 Upload Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: tests/results/
