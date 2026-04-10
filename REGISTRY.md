@@ -1,6 +1,7 @@
-# 🔍 Eco-Metal Discovery & Registry Index
-
 This document tracks identified native Metal/MLX modules for potential integration into the MNPP (Mac-Native Power Pack).
+
+*   **[Detailed Build Specs](docs/builds.md)** — In-depth analysis of the Elite Seven.
+*   **[Experimental Logs](experiments/LOGS.md)** — Real-world benchmarks and test reports.
 
 ## 🚀 Priority Targets for Integration
 
