@@ -1,0 +1,38 @@
+# Mac AI Ecosystem — Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts (legacy pybind11/C++)
+*.so
+*.dylib
+*.metallib
+*.egg-info/
+build/
+dist/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+**/.DS_Store
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs / results (tracked separately in tests/results/)
+*.log
