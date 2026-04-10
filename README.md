@@ -16,6 +16,12 @@ While the community creates atomic kernels, MNPP builds **Unified Fused Blocks (
 *   **[Scientific R&D](mnpp/scientific/)**: Experimental 1-bit / Ternary logic (BitNet).
 *   **[Nouveau 2026](mnpp/nouveau_2026/)**: Cutting-edge DeepSeek MLA architectures.
 
+## 🎭 Mission-Based Build Scenarios
+We have synthesized the best modules into specialized "Recipes" for target tasks:
+- 🏎 **[The Speed Demon](docs/scenarios/speed-demon.md)**: Max throughput (Rapid-MLX + SageAttention).
+- 🧠 **[The Memory Whisperer](docs/scenarios/memory-whisperer.md)**: LLMs on 8GB RAM (omlx + SSD Caching).
+- 🎙 **[The Multimodal Sonic](docs/scenarios/multimodal-sonic.md)**: Real-time Audio/Vision (Lightning-Whisper + F5-TTS).
+
 ## 💎 The Elite Seven
 1. **Sage-Attention** — Самое быстрое ядро внимания на Metal.
 2. **Turbo-Quant** — Лидер в скорости деквантизации весов.
