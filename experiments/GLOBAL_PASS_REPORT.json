@@ -1,0 +1,20 @@
+{
+    "builds/speed-demon-v1": {
+        "benchmark_speed.py": "\ud83d\udcca MNPP Mega-Build Component Benchmark (M-series Native)\n\nTask: RMSNorm for 4x1024x4096 block\n\ud83d\ude80 Standard MLX Norm: 5.4071 ms\n\ud83d\ude80 MNPP Fused Norm: 2.8794 ms\n\n\ud83d\udd25 Result: MNPP Norm Kernel is 46.75% faster than standard.\n\nTask: SwiGLU for 4x1024x4096 block\n\ud83d\ude80 Standard MLX SwiGLU: 6.5211 ms\n\ud83d\ude80 MNPP Fused SwiGLU: 2.7812 ms\n\n\ud83d\udd25 Result: MNPP SwiGLU Kernel is 57.35% faster than standard.\n",
+        "test_fused_kernels.py": "Max Absolute Difference: 1.9073486328125e-06\n\u2705 TEST PASSED: Fused RMSNorm matches reference.\n"
+    },
+    "builds/memory-whisperer-v1": {
+        "test_ram_efficiency.py": "\ud83e\udde0 MNPP Memory Whisperer: RAM Efficiency Analysis\nModel                | Quantization         | Est. RAM (GB)  \n------------------------------------------------------------\nLlama 3.2 1B         | FP16 (Pure)          |          2.00 GB\nLlama 3.2 1B         | 4-bit (Standard)     |          0.50 GB\nLlama 3.2 1B         | 1.58-bit (MNPP Ternary) |          0.20 GB\n------------------------------------------------------------\nLlama 3 8B           | FP16 (Pure)          |         16.00 GB\nLlama 3 8B           | 4-bit (Standard)     |          4.00 GB\nLlama 3 8B           | 1.58-bit (MNPP Ternary) |          1.58 GB\n------------------------------------------------------------\nCommand R 35B        | FP16 (Pure)          |         70.00 GB\nCommand R 35B        | 4-bit (Standard)     |         17.50 GB\nCommand R 35B        | 1.58-bit (MNPP Ternary) |          6.91 GB\n------------------------------------------------------------\nLlama 3 70B          | FP16 (Pure)          |        140.00 GB\nLlama 3 70B          | 4-bit (Standard)     |         35.00 GB\nLlama 3 70B          | 1.58-bit (MNPP Ternary) |         13.83 GB\n------------------------------------------------------------\n"
+    },
+    "builds/multimodal-sonic-v1": {
+        "test_latency.py": "\ud83c\udf99 MNPP Multimodal Sonic: Latency Tests\n\ud83c\udf99 Testing Standard Whisper (STT) + CoreML TTS...\n\u23f1 Response Latency: 2.050 s\n\ud83c\udf99 Testing MNPP Sonic (Lightning STT + F5-TTS)...\n\u23f1 Response Latency: 0.500 s\n\n\ud83c\udfc1 Target: < 0.5s for conversational AI.\n"
+    },
+    "builds/image-artisan-v1": null,
+    "builds/training-titan-v1": null,
+    "builds/agent-architect-v1": null,
+    "builds/video-alchemist-v1": null,
+    "builds/rag-radar-v1": null,
+    "builds/code-commander-v1": null,
+    "builds/bio-ml-architect-v1": null,
+    "builds/tiny-titan-v1": null
+}

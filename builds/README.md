@@ -52,5 +52,45 @@ High-performance module assemblies curated for specific tasks. Each build is a "
 - **Focus**: Edge, Mobile & Low-power.
 - **Top Feature**: 2-bit quantization for 1B models.
 
+### ☁️ [Cloud-Bridge V1](cloud-bridge-v1/)
+- **Focus**: Hybrid inference scaling.
+- **Top Feature**: Automatic local/cloud model offloading based on latency.
+
+### 🔐 [Encrypted-Edge V1](encrypted-edge-v1/)
+- **Focus**: Privacy-First AI.
+- **Top Feature**: On-the-fly KV cache encryption using Secure Enclave.
+
+### 🕵️‍♂️ [Silent-Sentry V1](silent-sentry-v1/)
+- **Focus**: Background monitoring.
+- **Top Feature**: Ultra-low wattage background inference.
+
+### 🏠 [Hobbyist-Home V1](hobbyist-home-v1/)
+- **Focus**: Home Automation.
+- **Top Feature**: Local voice-controlled smart home logic.
+
+### 📈 [Trading-Turbo V1](trading-turbo-v1/)
+- **Focus**: Financial Analysis.
+- **Top Feature**: Real-time ticker/sentiment correlation.
+
+### 🎮 [Game-Golem V1](game-golem-v1/)
+- **Focus**: Game AI (NPCs).
+- **Top Feature**: Minimal GPU-footprint dialogue logic.
+
+### 📱 [Social-Sync V1](social-sync-v1/)
+- **Focus**: Social Media Analysis.
+- **Top Feature**: Local sentiment/trend engine.
+
+### ⚖️ [Legal-Lex V1](legal-lex-v1/)
+- **Focus**: Legal Tech.
+- **Top Feature**: Local contract analysis & diffing.
+
+### 🏥 [Health-Hero V1](health-hero-v1/)
+- **Focus**: Personal Health.
+- **Top Feature**: Secure local biometric data analysis.
+
+### 🎙 [Podcast-Pilot V1](podcast-pilot-v1/)
+- **Focus**: Audio/Content Creation.
+- **Top Feature**: Native transcription + Clone synthesis.
+
 ---
-*Status: All 11 builds are defined and ready for the Sequential Testing Phase.*
+*Status: 21 builds defined. Scale Phase active. Proceeding with Sequential Testing.*
